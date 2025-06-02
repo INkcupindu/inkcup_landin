@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INKCUP - اطبع قصتك على كل كوب!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #fff5e6, #ffe6f0);
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      color: #222;
+    }
+    header, footer {
+      background: linear-gradient(90deg, #9C27B0, #E91E63);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo img {
+      height: 80px;
+    }
+    .tagline {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2, h3 {
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 26px;
+      color: #E91E63;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #FFD700;
+      display: inline-block;
+    }
+    .story img, .product img, .extra-product img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    .product, .step, .extra-product {
+      margin-bottom: 40px;
+    }
+    .steps {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .step {
+      flex: 1;
+      min-width: 250px;
+      background: #fdf0ff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .testimonial {
+      background: #fff3cd;
+      padding: 15px 20px;
+      border-right: 5px solid #f4b400;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+    .cta {
+      text-align: center;
+      background: linear-gradient(120deg, #fbc2eb, #a6c1ee);
+      padding: 40px 20px;
+      border-radius: 12px;
+    }
+    .cta a {
+      display: inline-block;
+      background: #E91E63;
+      color: white;
+      padding: 12px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      margin-top: 20px;
+    }
+    .social-icons {
+      margin-top: 15px;
+    }
+    .social-icons img {
+      margin: 0 10px;
+      vertical-align: middle;
+      filter: brightness(0) invert(1);
+    }
+    @media (max-width: 600px) {
+      .steps {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/inkcup_logo.jpg" alt="Inkcup Logo">
+    </div>
+    <div class="tagline">اطبع قصتك على كل كوب!</div>
+  </header>
+
+  <section class="story">
+    <h2>قصتنا</h2>
+    <p>نحن لا نطبع فقط على الأكواب – بل نطبع لحظات وذكريات. من لمسة الصباح الأولى إلى احتفالات الحياة، كل كوب يحكي قصة أنت بطلها.</p>
+    <img src="images/mug_printing.jpg" alt="يدان تمسكان كوبًا مطبوعًا مع بخار">
+  </section>
+
+  <section>
+    <h2>تشكيلة المنتجات</h2>
+    <div class="product">
+      <h3>◼ كوب سيراميك كلاسيكي</h3>
+      <p>المقاسات: 10 أونصة / 12 أونصة / 15 أونصة<br>مساحة الطباعة: تغليف كامل أو زخرفة على المقبض</p>
+      <img src="images/printing_qr_1.jpg" alt="كوب سيراميك بتصميم QR">
+    </div>
+    <div class="product">
+      <h3>◼ كوب السفر</h3>
+      <p>مقاوم للتسرب | جدار مزدوج<br>قاعدة رمادية ماتة + غلاف قابل للتخصيص</p>
+      <img src="images/printing_qr_2.jpg" alt="كوب سفر QR في مستودع">
+    </div>
+    <div class="extra-product">
+      <h3>◼ كوب حراري مخصص</h3>
+      <p>يحافظ على الحرارة والبرودة لفترات طويلة، مثالي للهدايا الشخصية.</p>
+      <img src="images/printing_qr_warehouse.jpg" alt="كوب حراري مطبوع في مستودع">
+    </div>
+  </section>
+
+  <section>
+    <h2>تفاصيل إضافية عن المنتجات</h2>
+    <p>نستخدم تقنيات طباعة متقدمة تضمن وضوح الألوان وثباتها حتى بعد الغسيل المتكرر. تتوفر لدينا خيارات متنوعة من التصاميم، ويمكنك أيضًا طباعة اسمك أو رسالة خاصة. كل كوب يتم فحصه يدويًا لضمان الجودة. كما نوفر إمكانية طباعة QR كود لربط الأكواب بهوية رقمية أو رسالة شخصية.</p>
+  </section>
+
+  <section>
+    <h2>كيفية الطلب</h2>
+    <div class="steps">
+      <div class="step">١. حمّل تصميمك (PNG/SVG)</div>
+      <div class="step">٢. اختر نوع الكوب والمقاس</div>
+      <div class="step">٣. نطبعه، نغلفه، ونشحنه!</div>
+    </div>
+    <p><strong>🖌️ نصائح التصميم:</strong> استخدم دقة 300DPI لطباعة واضحة!</p>
+  </section>
+
+  <section>
+    <h2>آراء العملاء</h2>
+    <div class="testimonial">"الكوب المطبوع كان مفاجأة رائعة لزوجي!" – نورة من الرياض</div>
+    <div class="testimonial">"دقة الطباعة فاقت توقعاتي!" – ماجد من جدة</div>
+  </section>
+
+  <section class="cta">
+    <h2>جاهز للطلب؟</h2>
+    <a href="#">زوروا موقعنا</a>
+    <p>البريد: <a href="mailto:hello@inkcup.com">hello@inkcup.com</a></p>
+    <div class="social-icons">
+      <a href="https://instagram.com/inkcup" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" width="24">
+      </a>
+      <a href="https://twitter.com/inkcup" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" alt="Twitter" width="24">
+      </a>
+      <a href="https://facebook.com/inkcup" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook" width="24">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 INKCUP - كل الحقوق محفوظة
+  </footer>
+</body>
+</html>
